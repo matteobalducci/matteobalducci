@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @matteobalducci
-- 👀 I’m interested in data, personal coding projects, music and football
-- 🌱 I’m currently learning more and more on Data Analytics and programming with Python and Java Script
+- 👀 I’m interested in data, coding, automations, music and football
+- 🌱 I’m currently learning more and more on Data Analytics and programming with Python and Java Script creating personals projects
 - 📫 How to reach me: matteo.balducci14@gmail.com
 
 <!---
