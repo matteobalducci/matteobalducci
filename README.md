@@ -12,6 +12,7 @@ My Projects Legend:
    
 3) "final-warm-project": Final exam of the Boolean course in data analytics, I worked with a group of data analysts who are committed to carrying out a complete analysis relating to the rise in global temperatures, which is the object of the Paris Agreement.
 
+4) The Titanic Kaggle competition challenges participants to predict the survival of passengers. I conducted an exploratory data analysis, revealing key predictors like gender, class, age, and embarkation point. I used a stacking ensemble model with 3 base learners and 1 meta-learner. 💻
 <!---
 matteobalducci/matteobalducci is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
