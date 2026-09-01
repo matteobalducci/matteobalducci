@@ -14,4 +14,4 @@
 **[Streaming Insights Copilot](https://github.com/matteobalducci/streaming-insights-copilot)** — natural-language analytics layer over the same warehouse: an LLM (Claude API) turns business questions into SQL behind a read-only guardrail layer, executed on DuckDB locally or BigQuery in production. Also ships a skip-prediction ML model (scikit-learn, gradient boosting) identifying discovery source as the dominant churn-risk driver.
 
 ### 🛠️ Stack
-`SQL` `Python (pandas, NumPy, scikit-learn)` `dbt` `BigQuery` `Looker Studio` `Power BI` `Tableau` `MicroStrategy` `Git`
+`SQL` `Python (pandas, NumPy, scikit-learn, Seaborn, Beautiful Soup)` `dbt` `BigQuery` `Looker Studio` `Power BI` `Tableau` `MicroStrategy` `Git`
