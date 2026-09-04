@@ -10,7 +10,7 @@
 
 ### 🚀 Featured projects
 
-**[Music Streaming Analytics](https://github.com/matteobalducci/music-streaming-analytics)** — end-to-end product analytics on a 1.23M-event streaming dataset: star-schema model, dbt staging + marts with data-quality tests, a SQL business-questions suite, and a Power BI dashboard. Measures skip rate, discovery efficiency (algorithmic ~42% skip vs ~22% editorial/search), device-level skip patterns, churn-based retention (~82%), and revenue/RPM by subscription plan.
+**[Music Streaming Analytics](https://github.com/matteobalducci/music-streaming-analytics)** — end-to-end product analytics on a 1.22M-event streaming dataset: star-schema model, dbt staging + marts with data-quality tests, a SQL business-questions suite, and a Power BI dashboard. Measures skip rate, discovery efficiency (algorithmic ~42% skip vs ~22% editorial/search), device-level skip patterns, churn-based retention (~82%), and revenue/RPM by subscription plan.
 
 **[Streaming Insights Copilot](https://github.com/matteobalducci/streaming-insights-copilot)** — natural-language analytics layer over the same warehouse: an LLM (Claude API) turns business questions into SQL behind a read-only guardrail layer, executed on DuckDB locally or BigQuery in production. Also ships a skip-prediction ML model (scikit-learn, gradient boosting) identifying discovery source as the dominant churn-risk driver.
 
