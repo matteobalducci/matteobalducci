@@ -14,7 +14,7 @@
 
 **[Streaming Insights Copilot](https://github.com/matteobalducci/streaming-insights-copilot)** — natural-language analytics layer over the same warehouse: an LLM (Claude API) turns business questions into SQL behind a read-only guardrail layer, executed on DuckDB locally or BigQuery in production. Also ships a skip-prediction ML model (scikit-learn, gradient boosting) identifying discovery source as the dominant churn-risk driver.
 
-**[Calciovich Content Pipeline](https://github.com/matteobalducci/calciovich-content-pipeline)** — a production system that generates and publishes video content daily to YouTube, Instagram and TikTok, agent-orchestrated and running unattended. Idempotent publishers, file-locked concurrent runs, per-format outlier detection against a rolling median, and a metrics logger accumulating channel time series with no retention cutoff. Currently building the analytics layer on top of that data: BigQuery warehouse, then Looker.
+**[Calciovich Content Pipeline](https://github.com/matteobalducci/calciovich-content-pipeline)** — a production system that generates and publishes video content daily to YouTube, Instagram and TikTok, agent-orchestrated and running unattended. Idempotent publishers, file-locked concurrent runs, per-format outlier detection against a rolling median, and a metrics logger accumulating channel time series with no retention cutoff. On top of that data: a BigQuery star-schema layer (staging → dimensional marts) feeding a 5-page Looker Studio report — engagement over time, cross-platform reach, category performance.
 
 ### 🛠️ Stack
 `SQL` `Python (pandas, NumPy, scikit-learn, Seaborn, Beautiful Soup)` `dbt` `BigQuery` `Looker Studio` `Power BI` `Tableau` `MicroStrategy` `Git`
